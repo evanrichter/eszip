@@ -1,0 +1,7 @@
+project: eszip
+target: eszip-parse
+
+cmds:
+  - cmd: /eszip-parse
+  - cmd: /eszip-parse_no_inst @@
+    libfuzzer: false
